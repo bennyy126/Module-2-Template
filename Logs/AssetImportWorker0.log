@@ -197,3 +197,4 @@ Received Import Request.
 Start importing Assets/New Material.mat using Guid(7c5c4f568d4124615a7a21de1041e91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50eef37ff7f282b98992a64160091a98') in 0.011036 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
+Prepare: number of updated asset objects reloaded= 0
