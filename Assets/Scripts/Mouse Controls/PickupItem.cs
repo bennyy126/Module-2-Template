@@ -36,7 +36,7 @@ public class PickupItem : MonoBehaviour, IPickup
     {
         transform.SetParent(oldParent);
         rb.isKinematic = false;
-        rb.AddForce(transform.forward * throwPower, ForceMode.VelocityChange);
+        rb.AddForce(Camera.main.transform.forward * throwPower, ForceMode.VelocityChange);
         source.PlayOneShot(dropSound);
     }
 }

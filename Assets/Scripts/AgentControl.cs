@@ -6,6 +6,7 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class AgentControl : MonoBehaviour
 {
+    public float pushForce;
     public NavMeshAgent agent;
     public Animation anim;
 
@@ -29,8 +30,21 @@ public class AgentControl : MonoBehaviour
             {
                 Vector3 newDestination = hit.point;
                 agent.SetDestination(newDestination);
-                anim?.Play();
+                if (anim != null)
+                {
+                    anim?.Play();
+                }
             }
         }
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        Rigidbody rb = collision.collider.GetComponent<Rigidbody>();
+        if(rb!=null)
+        {
+            Vector3 direction = (collision.collider.transform.position - transform.position).normalized;
+            rb.AddForce(direction * pushForce);
+        }
+
     }
 }

@@ -20,9 +20,9 @@ public class Move : MonoBehaviour
     {
         float speed = Input.GetKey(runKey) ? runSpeed : walkSpeed;
 
-        float inputX = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
-        float inputZ = Input.GetAxis("Vertical") * speed * Time.deltaTime;
+        float inputX = Input.GetAxis("Horizontal") * speed/150;
+        float inputZ = Input.GetAxis("Vertical") * speed/150;
 
-        rb.transform.Translate(inputX, 0, inputZ);
+        rb.velocity = transform.TransformDirection(new Vector3 (inputX, rb.velocity.y, inputZ));
     }
 }

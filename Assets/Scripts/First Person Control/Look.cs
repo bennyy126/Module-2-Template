@@ -11,7 +11,7 @@ public class Look : MonoBehaviour
     private Vector2 currentMouseLook;
     private Vector2 appliedMouseDelta;
 
-    void Start()
+    private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;

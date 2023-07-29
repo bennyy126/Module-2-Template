@@ -5,6 +5,9 @@ using UnityEngine;
 [RequireComponent(typeof(AudioSource))]
 public class MouseShoot : MonoBehaviour
 {
+    public GameObject shootBall;
+    public Transform shootLocation;
+    public float speed = 10;
     public float range = 20;
     public float damage = 10;
     public AudioClip fireSoundEffects;
@@ -23,16 +26,21 @@ public class MouseShoot : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             source.PlayOneShot(fireSoundEffects);
-            Vector3 rayOrigin = fpsCam.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0.0f));
 
-            RaycastHit hit;
-            if (Physics.Raycast(rayOrigin, fpsCam.transform.forward, out hit,range))
-            {
-                if (hit.collider.GetComponent<IDamagable>() != null)
-                {
-                    hit.collider.GetComponent<IDamagable>().TakeDamage(damage);
-                }
-            }
+
+            GameObject obj = Instantiate(shootBall, shootLocation.position, shootLocation.rotation);
+            obj.GetComponent<Rigidbody>().AddForce(shootLocation.forward * speed, ForceMode.Impulse);
+
+            //Vector3 rayOrigin = fpsCam.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0.0f));
+
+            //RaycastHit hit;
+            //if (Physics.Raycast(rayOrigin, fpsCam.transform.forward, out hit,range))
+            //{
+            //    if (hit.collider.GetComponent<IDamagable>() != null)
+            //    {
+            //        hit.collider.GetComponent<IDamagable>().TakeDamage(damage);
+            //    }
+            //}
         }
     }
 }
