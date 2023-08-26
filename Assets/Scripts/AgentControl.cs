@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(NavMeshAgent))]
 public class AgentControl : MonoBehaviour
@@ -9,31 +10,45 @@ public class AgentControl : MonoBehaviour
     public float pushForce;
     public NavMeshAgent agent;
     public Animation anim;
+    public float slowDownDistance;
 
     private Camera mainCamera;
-    private float raycastRange = 100;
+    private float raycastRange = Mathf.Infinity;
+    float orgSpeed = 0;
 
     // Start is called before the first frame update
     void Start()
     {
         mainCamera = Camera.main;
+        orgSpeed = agent.speed;
+    }
+    void OnFire()
+    {
+        print("hi");
+        Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit, raycastRange))
+        {
+            Vector3 newDestination = hit.point;
+            agent.SetDestination(newDestination);
+            if (anim != null)
+            {
+                anim?.Play();
+            }
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, raycastRange))
+        if (agent.destination != null){
+            float distance = Vector3.Distance(transform.position, agent.destination);
+            if (distance < slowDownDistance)
             {
-                Vector3 newDestination = hit.point;
-                agent.SetDestination(newDestination);
-                if (anim != null)
-                {
-                    anim?.Play();
-                }
+                agent.speed = Mathf.Lerp(0, orgSpeed, distance / slowDownDistance);
+            }
+            else {
+                agent.speed = orgSpeed;
             }
         }
     }

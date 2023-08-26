@@ -8,6 +8,7 @@ public class Health : MonoBehaviour, IDamagable
     public float health = 100;
     public AudioClip damageSound;
     public AudioClip deathSound;
+    public bool isPlayer;
 
     private AudioSource source;
 
@@ -28,6 +29,14 @@ public class Health : MonoBehaviour, IDamagable
         {
             source.PlayOneShot(damageSound);
         }
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(isPlayer && collision.gameObject.tag == "Bullet")
+        {
+            TakeDamage(100);
+        }
+
     }
 
 }
