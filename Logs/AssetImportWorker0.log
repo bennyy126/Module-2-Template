@@ -1,0 +1,1229 @@
+Unity Editor version:    2022.3.0f1 (fb119bb0b476)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.0 (Build 23A5312d)
+Darwin version:          23.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.0f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/benny/Documents/GitHub/Module-2-Template
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60979
+Successfully changed project path to: /Users/benny/Documents/GitHub/Module-2-Template
+/Users/benny/Documents/GitHub/Module-2-Template
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8034567168] Host "[IP] 192.168.0.99 [Port] 0 [Flags] 2 [Guid] 1824974991 [EditorId] 1824974991 [Version] 1048832 [Id] OSXEditor(0,PingHeis-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8034567168] Host "[IP] 192.168.0.99 [Port] 0 [Flags] 2 [Guid] 1824974991 [EditorId] 1824974991 [Version] 1048832 [Id] OSXEditor(0,PingHeis-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 24.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.0f1 (fb119bb0b476)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/benny/Documents/GitHub/Module-2-Template/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.0f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56873
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.0f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.004404 seconds.
+- Loaded All Assemblies, in  0.331 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.307 seconds
+Domain Reload Profiling: 639ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (149ms)
+		LoadAssemblies (91ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (308ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (243ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (167ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.943 seconds
+Refreshing native plugins compatible for Editor in 5.84 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.835 seconds
+Domain Reload Profiling: 1778ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (656ms)
+		LoadAssemblies (348ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (370ms)
+			TypeCache.Refresh (341ms)
+				TypeCache.ScanAssembly (311ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (836ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (640ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (368ms)
+			ProcessInitializeOnLoadMethodAttributes (183ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Failed to load shader (instanceID 8272, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.29 seconds
+Refreshing native plugins compatible for Editor in 5.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (1.3 MB). Loaded Objects now: 2762.
+Memory consumption went from 207.2 MB to 205.9 MB.
+Total: 25.323334 ms (FindLiveObjects: 0.396584 ms CreateObjectMapping: 0.105084 ms MarkObjects: 24.079334 ms  DeleteObjects: 0.741500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 257761.125769 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Animations/Character/_Common/A_FP_PCH_Run_02.fbx
+  artifactKey: Guid(7d59e8a31c0143b4da688c141cc5fecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Animations/Character/_Common/A_FP_PCH_Run_02.fbx using Guid(7d59e8a31c0143b4da688c141cc5fecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fdfb37a49f2ca1060ec7f970da98b5') in 0.324675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 149
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Animations/Character/Handguns/A_FP_PCH_Handgun_Inspect.fbx
+  artifactKey: Guid(6f72c15cb57c2ea488268d26e4919f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Animations/Character/Handguns/A_FP_PCH_Handgun_Inspect.fbx using Guid(6f72c15cb57c2ea488268d26e4919f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbcc500040d9d4be5a1545e6a968b93') in 0.065058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 149
+========================================================================
+Received Import Request.
+  Time since last request: 0.001958 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Animations/Character/Handguns/A_FP_PCH_Handgun_Fire.fbx
+  artifactKey: Guid(2613f806b0b3c254e81855c97b89bbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Animations/Character/Handguns/A_FP_PCH_Handgun_Fire.fbx using Guid(2613f806b0b3c254e81855c97b89bbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fafe466aee29bc4f5c6758fdc5146ac') in 0.050317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 149
+========================================================================
+Received Import Request.
+  Time since last request: 0.000849 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Animations/Character/_Common/A_FP_PCH_Walk_F.fbx
+  artifactKey: Guid(1293ad0e14a81a94c9f958104036fa91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Animations/Character/_Common/A_FP_PCH_Walk_F.fbx using Guid(1293ad0e14a81a94c9f958104036fa91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbecf81e5b02f38d83224a0d046537a0') in 0.060371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 149
+========================================================================
+Received Import Request.
+  Time since last request: 0.000825 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Animations/Character/_Common/A_FP_PCH_Idle.fbx
+  artifactKey: Guid(28f784c9020e1c44583b059828f40c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Animations/Character/_Common/A_FP_PCH_Idle.fbx using Guid(28f784c9020e1c44583b059828f40c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6ea9b98c0cab8fa7cdb5249315df0c') in 0.109051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 149
+========================================================================
+Received Import Request.
+  Time since last request: 0.000751 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Animations/Character/ARs/A_FP_PCH_AR_01_Reload.fbx
+  artifactKey: Guid(bd8d61cb762c49d489995fa1062356fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Animations/Character/ARs/A_FP_PCH_AR_01_Reload.fbx using Guid(bd8d61cb762c49d489995fa1062356fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7872660e7623db48b155dc3ec91db1e') in 0.055523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 149
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Animations/Character/_Common/A_FP_PCH_Fire_Empty.fbx
+  artifactKey: Guid(ac4c302108621c14294ac65e8477101a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Animations/Character/_Common/A_FP_PCH_Fire_Empty.fbx using Guid(ac4c302108621c14294ac65e8477101a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25203d052a6f120bb3f705fbfaeb1203') in 0.054543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 149
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Animations/Character/Handguns/A_FP_PCH_Handgun_Run_01.fbx
+  artifactKey: Guid(6766f23a6f74cb24281526df460f8ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Animations/Character/Handguns/A_FP_PCH_Handgun_Run_01.fbx using Guid(6766f23a6f74cb24281526df460f8ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6b6149383a54736c0717faec48e084') in 0.079485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 149
+========================================================================
+Received Import Request.
+  Time since last request: 5.369972 seconds.
+  path: Assets/GrassFlowers/Post-Processing For GrassFlowers.asset
+  artifactKey: Guid(150fbd13cfcddb34ebc82b228a769165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Post-Processing For GrassFlowers.asset using Guid(150fbd13cfcddb34ebc82b228a769165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e34428f4c7e20480f68d8626430435') in 0.001468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 25.993073 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes
+  artifactKey: Guid(4343c8879dda8974088c6da21527caa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes using Guid(4343c8879dda8974088c6da21527caa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454f25fa1585e167325424a4950b4d77') in 0.000661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.178114 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-LightItalic.ttf
+  artifactKey: Guid(b02c7827679f4cb4cbe9af238ff51e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-LightItalic.ttf using Guid(b02c7827679f4cb4cbe9af238ff51e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a3d95fe1de0083651316843968aaac') in 0.081344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-Black.ttf
+  artifactKey: Guid(31e5d93e4358f014bbc3bbe86e901884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-Black.ttf using Guid(31e5d93e4358f014bbc3bbe86e901884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eba5e6f492b913a01a1d5fc97c200d5') in 0.008887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61983b386eb423493b4acd24facde2f') in 0.247827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-BoldCondensed.ttf
+  artifactKey: Guid(239439bd5ebfca640827c70e1fb1c42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-BoldCondensed.ttf using Guid(239439bd5ebfca640827c70e1fb1c42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1746194858488dd9fc700cf9d599b716') in 0.007581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-Regular.ttf
+  artifactKey: Guid(3b77f1cae85921045a6f661b20670385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-Regular.ttf using Guid(3b77f1cae85921045a6f661b20670385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce60a5c77cc28f1afda35d47a19c3a27') in 0.009536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Environment/M_Grid_Wall_4x5.mat
+  artifactKey: Guid(658183f39a9732542802e13d469c2fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Environment/M_Grid_Wall_4x5.mat using Guid(658183f39a9732542802e13d469c2fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240a4a7cd8ea9bb3fb539004f027654e') in 0.036704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Weapons/M_WEP_Camo_001.mat
+  artifactKey: Guid(f163886c552e95540a538a1986131edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Weapons/M_WEP_Camo_001.mat using Guid(f163886c552e95540a538a1986131edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfcb0e7e6705e40cd04360875a62be1') in 0.026563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Weapons/M_WEP_CarbonFibre_001.mat
+  artifactKey: Guid(2d8b454c96dd40341a2b2ea298ad1576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Weapons/M_WEP_CarbonFibre_001.mat using Guid(2d8b454c96dd40341a2b2ea298ad1576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03006e40a4b473917a4d715339afbd37') in 0.013236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Casings/M_WEP_Casings.mat
+  artifactKey: Guid(e956f0cf9bd913842b3edea3ecdc4a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Casings/M_WEP_Casings.mat using Guid(e956f0cf9bd913842b3edea3ecdc4a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73bc023c43bede8ca5819da36579d8f') in 0.008429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-BoldCondensed SDF.asset
+  artifactKey: Guid(789ee531d579d5345bf51ebc991ad775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-BoldCondensed SDF.asset using Guid(789ee531d579d5345bf51ebc991ad775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37651e3093cd25479549898d106df53a') in 0.036924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Textures/Effects/T_Debris_Particles_D.mat
+  artifactKey: Guid(ab7adc984813c834598a258192107240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Textures/Effects/T_Debris_Particles_D.mat using Guid(ab7adc984813c834598a258192107240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd432a735a8cee6db45d1c5e4bc7b78') in 0.008064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Character/M_FP_Camo_001_001.mat
+  artifactKey: Guid(6cf4e0279b7ceed48a5ac8b9428e74dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Character/M_FP_Camo_001_001.mat using Guid(6cf4e0279b7ceed48a5ac8b9428e74dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6adea0fa84e946a915f29171c239b412') in 0.014130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Environment/M_Grid_Showcase_Cube.mat
+  artifactKey: Guid(e9299e6ef4a663640855cb5543acfcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Environment/M_Grid_Showcase_Cube.mat using Guid(e9299e6ef4a663640855cb5543acfcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c215fbeb1d778a08cad537bbe8958dd9') in 0.009402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000719 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Weapons/M_WEP_Basic_008.mat
+  artifactKey: Guid(07a70e0af646ae9498c6ef448486987f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Weapons/M_WEP_Basic_008.mat using Guid(07a70e0af646ae9498c6ef448486987f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9d6f83c712bdfd732f8e474973e159') in 0.014424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Weapons/M_WEP_Basic_006.mat
+  artifactKey: Guid(89aec69d264f8854a9b5b74042a882ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Weapons/M_WEP_Basic_006.mat using Guid(89aec69d264f8854a9b5b74042a882ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e6c9ba40a76cf309f81d05cb017ce8') in 0.012748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002409 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-Bold SDF.asset
+  artifactKey: Guid(45b1ec5744ef249478cc066079c5fd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-Bold SDF.asset using Guid(45b1ec5744ef249478cc066079c5fd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77824f4dc0674c6cd6255755b770839') in 0.040061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.002012 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-Condensed.ttf
+  artifactKey: Guid(0d5779195e1dfdc4d9554bfc011e05a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-Condensed.ttf using Guid(0d5779195e1dfdc4d9554bfc011e05a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbd94cad845bfc76517fdb24b90d249') in 0.015921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(358f63cb1d6beff499b4e2187862df7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-Bold.ttf using Guid(358f63cb1d6beff499b4e2187862df7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77f4fb6adece7cac627814e5bf24ac7') in 0.015977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-BlackItalic SDF.asset
+  artifactKey: Guid(435242418ac67894ca1191dbf30fdfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-BlackItalic SDF.asset using Guid(435242418ac67894ca1191dbf30fdfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e1dfe7f3236684aaac82fe9d5f15af') in 0.047141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.002614 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Effects/M_Bullet.mat
+  artifactKey: Guid(de40215ad721f914fa9e82157e40b696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Effects/M_Bullet.mat using Guid(de40215ad721f914fa9e82157e40b696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fd1aedd06341ddbd4260a36ee2d67e') in 0.010937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006011 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Environment/M_Demo_Lamps.mat
+  artifactKey: Guid(231e2b8235491504197f468297689d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Environment/M_Demo_Lamps.mat using Guid(231e2b8235491504197f468297689d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ac5240deba2b91b4477fbf8fc708f0') in 0.052859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Environment/M_Grid_Separator_Small.mat
+  artifactKey: Guid(cb16f57443ff7f1478322ad2c7588de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Environment/M_Grid_Separator_Small.mat using Guid(cb16f57443ff7f1478322ad2c7588de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed353faa5fad43f69695377466468d4') in 0.012898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002199 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-Light SDF.asset
+  artifactKey: Guid(c58b0993d1e4c0b4ba36df160842c398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-Light SDF.asset using Guid(c58b0993d1e4c0b4ba36df160842c398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcf0d7e51a491662920895189943224') in 0.040919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-LightItalic SDF.asset
+  artifactKey: Guid(872d4ef16428fcf4c93352f8aa5cb271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-LightItalic SDF.asset using Guid(872d4ef16428fcf4c93352f8aa5cb271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1b3aa1e5b7a460ee5ce98c6b412c2e') in 0.034972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.002292 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-Thin SDF.asset
+  artifactKey: Guid(156ff347f440bdf45b8931655a5d5c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-Thin SDF.asset using Guid(156ff347f440bdf45b8931655a5d5c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2e53868ad828052c166c0d5c6f0d70') in 0.040908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.008195 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Weapons/M_WEP_Basic_043.mat
+  artifactKey: Guid(5facf1a0fb716d0438654d34f908b5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Weapons/M_WEP_Basic_043.mat using Guid(5facf1a0fb716d0438654d34f908b5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6558a5a9254bff8d942e2345f4511ded') in 0.012300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001914 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9e4d013e2e7b29179b5cb1a3b0ece4') in 0.055531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.001739 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-BoldCondensedItalic.ttf
+  artifactKey: Guid(2ddddd2b056e5b648b67982819ccaa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-BoldCondensedItalic.ttf using Guid(2ddddd2b056e5b648b67982819ccaa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950c5cc52c0ed291972e418b6dcbde35') in 0.017171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.004586 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-Medium SDF.asset
+  artifactKey: Guid(3d68ba70dced00f4d8c9714edf29e952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-Medium SDF.asset using Guid(3d68ba70dced00f4d8c9714edf29e952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bf0425a62d81ca0d86c42f3423b9b0') in 0.041380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.002163 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Effects/M_MuzzleFlash.mat
+  artifactKey: Guid(feaaf94c1c67c5c449e2b7ea49db3313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Effects/M_MuzzleFlash.mat using Guid(feaaf94c1c67c5c449e2b7ea49db3313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092bec63e01e1f9ec755410b3c540bf1') in 0.015009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003059 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Effects/M_Bullet_Trail.mat
+  artifactKey: Guid(fc90e75401f65404a8dd6be2d7eafc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Effects/M_Bullet_Trail.mat using Guid(fc90e75401f65404a8dd6be2d7eafc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c246507b12b883fa615c12e7b44117a') in 0.009671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Materials/Grass.mat
+  artifactKey: Guid(9b041d1605e6e4edd87f1ee475f5fc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grass.mat using Guid(9b041d1605e6e4edd87f1ee475f5fc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674ba7349b0444e5d2da706e2ca1ce24') in 0.120239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000873 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Weapons/M_WEP_Basic_005.mat
+  artifactKey: Guid(600f7c3032895ad489d4119a732fc463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Weapons/M_WEP_Basic_005.mat using Guid(600f7c3032895ad489d4119a732fc463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1655ee6d721a57bf1544d2633b152a9') in 0.014878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Effects/M_Smoke_Animated.mat
+  artifactKey: Guid(080f77c7731800f4490dd3900a4e2aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Effects/M_Smoke_Animated.mat using Guid(080f77c7731800f4490dd3900a4e2aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2146243b5a55d7f7a81d2d8e91132c84') in 0.014643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-Italic SDF.asset
+  artifactKey: Guid(f9767962b93992a46a913b8f7f8ae703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-Italic SDF.asset using Guid(f9767962b93992a46a913b8f7f8ae703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b57e6b660672a07b9c8d64bd86ee7b') in 0.038266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.002497 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Effects/M_Impact_Concrete.mat
+  artifactKey: Guid(7a8ad10c976a30848b75c4ba8d61ce62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Effects/M_Impact_Concrete.mat using Guid(7a8ad10c976a30848b75c4ba8d61ce62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d81c8e3b845b11fc2fc9637541a5a9') in 0.009111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001160 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Environment/M_Grid_Cube.mat
+  artifactKey: Guid(18d97549b0c829a4189c539ef575c4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Environment/M_Grid_Cube.mat using Guid(18d97549b0c829a4189c539ef575c4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd4eadd6ad10d6bd49d8027eead3d02') in 0.012773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002288 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-MediumItalic SDF.asset
+  artifactKey: Guid(daba0dfea04fc864fa94d8d38d5711af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-MediumItalic SDF.asset using Guid(daba0dfea04fc864fa94d8d38d5711af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d99681f9d7283b63f3a939fd87a7d7') in 0.037519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.014049 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-CondensedItalic.ttf
+  artifactKey: Guid(59f1f4dd7ea683d4f98f73bd91a90f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-CondensedItalic.ttf using Guid(59f1f4dd7ea683d4f98f73bd91a90f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864e0dc1572b97796e723e20967283fe') in 0.023361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000586 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-Regular SDF.asset
+  artifactKey: Guid(4317f4a728f52834a9a13f0f00152805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Fonts/Roboto-Regular SDF.asset using Guid(4317f4a728f52834a9a13f0f00152805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d9ea50f1dde6d9ef84c7cd8c9b6aca') in 0.037616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.006658 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Effects/M_Shockwave.mat
+  artifactKey: Guid(33e4edc60bd3b544aa23d5c78ad00ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Materials/Effects/M_Shockwave.mat using Guid(33e4edc60bd3b544aa23d5c78ad00ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312a827f9e4269d318edc95958442e80') in 0.010977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.101457 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/ARs/SK_AR_01.fbx
+  artifactKey: Guid(bfda376b0f658a748870ea8f7c2c7c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/ARs/SK_AR_01.fbx using Guid(bfda376b0f658a748870ea8f7c2c7c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277bf43d6db15fc199fac04fc4af160d') in 0.063409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/ARs/SM_AR_01_Scope_Default.fbx
+  artifactKey: Guid(9f4d52975d229e74fa27561b00052caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/ARs/SM_AR_01_Scope_Default.fbx using Guid(9f4d52975d229e74fa27561b00052caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf2c7ebce2b102ccaaeac7fd32d6427') in 0.029110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Environment/Objects/Target/SM_Target_Destroyed_005.fbx
+  artifactKey: Guid(baf681b86ea391640ad905d47b50d670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Environment/Objects/Target/SM_Target_Destroyed_005.fbx using Guid(baf681b86ea391640ad905d47b50d670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c3ff20a6a16d1934033efb87538b00') in 0.013969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Environment/Objects/Target/SM_Target_Destroyed_009.fbx
+  artifactKey: Guid(f618cd6fc2a052f49afc7a6e6d4e612c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Environment/Objects/Target/SM_Target_Destroyed_009.fbx using Guid(f618cd6fc2a052f49afc7a6e6d4e612c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c633644c840098bbcb8f7e8c6e41cbb2') in 0.007332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/Handguns/SM_Handgun_03_Magazine_Default.fbx
+  artifactKey: Guid(8931d8712849cae45b5d761cd9ec7838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/Handguns/SM_Handgun_03_Magazine_Default.fbx using Guid(8931d8712849cae45b5d761cd9ec7838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf78274c3f2d82b5a9ab0d4f78b2f8b') in 0.064726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Environment/Objects/Lamps/SM_Lamp_001.fbx
+  artifactKey: Guid(85139560652941348a917908558c52eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Environment/Objects/Lamps/SM_Lamp_001.fbx using Guid(85139560652941348a917908558c52eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a317ae92fc2f1a09b092f601c3d9ce70') in 0.009425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/Handguns/SK_Handgun_03.fbx
+  artifactKey: Guid(40cb849895dd45645ac3fadcc88190af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/Handguns/SK_Handgun_03.fbx using Guid(40cb849895dd45645ac3fadcc88190af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b92089319e58193b9e50bd294d8441') in 0.021821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/_Common/Casings/SM_Bullet_Big.fbx
+  artifactKey: Guid(89f8c77d017f95141a527419cf792e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/_Common/Casings/SM_Bullet_Big.fbx using Guid(89f8c77d017f95141a527419cf792e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97016f0c66f9b3a824b8884dfe37b59') in 0.007255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/_Common/Casings/SM_Bullet_Small_Empty.fbx
+  artifactKey: Guid(6dd697f8c03c3a64088af9ab2f99d90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/_Common/Casings/SM_Bullet_Small_Empty.fbx using Guid(6dd697f8c03c3a64088af9ab2f99d90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3bc176491e57fedbf304a2e0d0e4c9') in 0.011610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Demo/SM_Cube.fbx
+  artifactKey: Guid(96af6349713f9cd4ea4c829bf26d0b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Demo/SM_Cube.fbx using Guid(96af6349713f9cd4ea4c829bf26d0b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6808924ba691b36ecceb65b8023b310c') in 0.011681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/_Common/Casings/SM_Bullet_Small.fbx
+  artifactKey: Guid(521ca71b03de2c54f8ad8cfc632195c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/_Common/Casings/SM_Bullet_Small.fbx using Guid(521ca71b03de2c54f8ad8cfc632195c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99325001a5cf89af674442ad0073bc7e') in 0.011038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Environment/Objects/Target/SM_Target_Destroyed_010.fbx
+  artifactKey: Guid(8a92399004eede947b3b9dc952acc3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Environment/Objects/Target/SM_Target_Destroyed_010.fbx using Guid(8a92399004eede947b3b9dc952acc3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2982ee2926e0e6b51b77e0d1ad2d973d') in 0.007816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/_Common/Casings/SM_Bullet_Big_Empty.fbx
+  artifactKey: Guid(c9dc3dff8f283a94ebf78b8774b91695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/_Common/Casings/SM_Bullet_Big_Empty.fbx using Guid(c9dc3dff8f283a94ebf78b8774b91695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a011c88fdf33ac82588cf3255e229b') in 0.008962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/Handguns/SM_Handgun_03_Scope_Default.fbx
+  artifactKey: Guid(446803998811ff04ea871c8f2a4be03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/Handguns/SM_Handgun_03_Scope_Default.fbx using Guid(446803998811ff04ea871c8f2a4be03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6043f3e175f869c614cdf920914451a') in 0.008820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Environment/Objects/Explosives/SM_Explosive_Gas_Tank_Destroyed_001.fbx
+  artifactKey: Guid(65047e7a356f37c4aa4c0596b1de47ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Environment/Objects/Explosives/SM_Explosive_Gas_Tank_Destroyed_001.fbx using Guid(65047e7a356f37c4aa4c0596b1de47ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0343d5af58047d82a4ed9b00f088bcb') in 0.007519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Effects/SM_MuzzleFlash.FBX
+  artifactKey: Guid(62cc14ff2c39bb84dbaf6154cdbd50a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Effects/SM_MuzzleFlash.FBX using Guid(62cc14ff2c39bb84dbaf6154cdbd50a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b66569f4661c08c9525d143c5682fc') in 0.015102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.015309 seconds.
+  path: Packages/com.unity.analytics/DataPrivacy/DataPrivacyButton.prefab
+  artifactKey: Guid(71b11355001648444b41d17fd36c150d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.analytics/DataPrivacy/DataPrivacyButton.prefab using Guid(71b11355001648444b41d17fd36c150d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab735dbf95a7ad03523a63b05a7e30f6') in 0.007595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Effects/Explosions/P_EXP_GasTank.prefab
+  artifactKey: Guid(a50b888ceca3dca4eab49f79ed67390a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Effects/Explosions/P_EXP_GasTank.prefab using Guid(a50b888ceca3dca4eab49f79ed67390a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d6ad0808c07d6d808e0f40ee73a3a4') in 0.015134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Damageables/P_LPSP_DMG_Gas_Tank.prefab
+  artifactKey: Guid(62e80a053a5f7c94f9f4c90bc293e432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Damageables/P_LPSP_DMG_Gas_Tank.prefab using Guid(62e80a053a5f7c94f9f4c90bc293e432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9daa7fab49b54131a0c0fa4b16dc8553') in 0.024392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Effects/Explosions/P_EXP_Default.prefab
+  artifactKey: Guid(301583a5af63a494298d60cd9f296909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Effects/Explosions/P_EXP_Default.prefab using Guid(301583a5af63a494298d60cd9f296909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfff396143019de440cfdb3b8e20d588') in 0.032770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Damageables/P_LPSP_DMG_Gas_Tank_Destroyed.prefab
+  artifactKey: Guid(95c33a55895ffd7488870c75076605bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Damageables/P_LPSP_DMG_Gas_Tank_Destroyed.prefab using Guid(95c33a55895ffd7488870c75076605bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521e3e8bc63bcefb1e732904038e96c5') in 0.006705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Damageables/P_LPSP_DMG_Barrel.prefab
+  artifactKey: Guid(ba67efa6dcab9a54aac7e607f17f759c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Damageables/P_LPSP_DMG_Barrel.prefab using Guid(ba67efa6dcab9a54aac7e607f17f759c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25abcd18e0abf5e33507fff11c339e2') in 0.013323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Demo/P_Grid_Roof.prefab
+  artifactKey: Guid(c4f5aeff5b2e5e448a35f860efea9db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Demo/P_Grid_Roof.prefab using Guid(c4f5aeff5b2e5e448a35f860efea9db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd104bf4a2938ef0818208b26d9817c4f') in 0.005748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Demo/P_Grid_Floor.prefab
+  artifactKey: Guid(ec359f99037709646a1a187546ca52c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Demo/P_Grid_Floor.prefab using Guid(ec359f99037709646a1a187546ca52c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ec0a46b8bfa4507f941e5eb1e9693f') in 0.005886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Demo/P_Grid_Separator_Small.prefab
+  artifactKey: Guid(7cf89b170f33a144ea4e20dbe0257257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Demo/P_Grid_Separator_Small.prefab using Guid(7cf89b170f33a144ea4e20dbe0257257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37df657ae68bce35df18746d08f26c3e') in 0.005190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Casings/P_LPSP_Casing_Big.prefab
+  artifactKey: Guid(c638dfae3f3edf843b2614dae230a771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Casings/P_LPSP_Casing_Big.prefab using Guid(c638dfae3f3edf843b2614dae230a771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a914520a80dbc64cc1a27e888be3be') in 0.006471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Damageables/P_LPSP_DMG_Target.prefab
+  artifactKey: Guid(84e2da24fceb32c45a3059b4c1d82538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Damageables/P_LPSP_DMG_Target.prefab using Guid(84e2da24fceb32c45a3059b4c1d82538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908e562f5031b1a05d9d67f57c8e623a') in 0.008229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Demo/P_Grid_Doorway.prefab
+  artifactKey: Guid(7f740e7c6da5a1d408066ed2e3be4b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Demo/P_Grid_Doorway.prefab using Guid(7f740e7c6da5a1d408066ed2e3be4b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c9f04bfda7e0371e0c8b737bd76979') in 0.007330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/P_LPSP_FP_CH.prefab
+  artifactKey: Guid(19eadcf8fbed56b4da77ca94c1b4145f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/P_LPSP_FP_CH.prefab using Guid(19eadcf8fbed56b4da77ca94c1b4145f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93335274248af98f315ffa34a0d9459') in 2.721178 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1001
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Demo/P_Showcase_Bullets.prefab
+  artifactKey: Guid(c55b84a58c1b1a442b8b34805e7616b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Demo/P_Showcase_Bullets.prefab using Guid(c55b84a58c1b1a442b8b34805e7616b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8195b123a5be7ec451243a9e26f180b4') in 0.014404 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 149
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Demo/P_Showcase_VFX.prefab
+  artifactKey: Guid(36bd124c56a646c4a914bc0a07f7efe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Demo/P_Showcase_VFX.prefab using Guid(36bd124c56a646c4a914bc0a07f7efe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29784c005e5b77814f23e555354002c') in 0.007800 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.001217 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Demo/P_Information_Text.prefab
+  artifactKey: Guid(cdd74a287d6763748a0da1e717364366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Demo/P_Information_Text.prefab using Guid(cdd74a287d6763748a0da1e717364366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca98e842cb7960457f0ebdde27abd508') in 0.002078 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Effects/Particles/P_LPSP_WEP_Flash_Light.prefab
+  artifactKey: Guid(25a6bd588ee932f4f8be552fd0fae250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Effects/Particles/P_LPSP_WEP_Flash_Light.prefab using Guid(25a6bd588ee932f4f8be552fd0fae250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d32a758bbda6b238456e30e8544b1e9') in 0.001392 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Effects/Demo/VFX_Explosion_Barrel.prefab
+  artifactKey: Guid(85b0d2a4b4d030845aa831018e1bda14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Effects/Demo/VFX_Explosion_Barrel.prefab using Guid(85b0d2a4b4d030845aa831018e1bda14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84961456406e1b1dadaf98f20d4726ad') in 0.017468 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Damageables/P_LPSP_DMG_Barrel_Destroyed.prefab
+  artifactKey: Guid(69583eba87a3a60449692cb2c09f4706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Damageables/P_LPSP_DMG_Barrel_Destroyed.prefab using Guid(69583eba87a3a60449692cb2c09f4706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad6a1bd22ec74e6a264f38f9f2fc496') in 0.012496 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 0.000722 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Effects/Impacts/P_IMP_Concrete.prefab
+  artifactKey: Guid(5e02303289b3c494e8e185be0fbbd405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Effects/Impacts/P_IMP_Concrete.prefab using Guid(5e02303289b3c494e8e185be0fbbd405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51af0276a18fea3623579c99bd031c52') in 0.009353 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.001392 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Weapons/Attachments/Specific/P_LPSP_WEP_ATT_Muzzle.prefab
+  artifactKey: Guid(16810aaa7341c99469aecedc37b98ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Weapons/Attachments/Specific/P_LPSP_WEP_ATT_Muzzle.prefab using Guid(16810aaa7341c99469aecedc37b98ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb50366aa1535c22798f9f756fa5a7e') in 0.002790 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Interface/P_LPSP_UI_Canvas.prefab
+  artifactKey: Guid(48d7771c50bd625489d38055025597a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Interface/P_LPSP_UI_Canvas.prefab using Guid(48d7771c50bd625489d38055025597a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500e1b0a5b9f24c84699957c126e3a13') in 0.003491 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 104
+========================================================================
+Received Import Request.
+  Time since last request: 0.001385 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Effects/Demo/VFX_Explosion.prefab
+  artifactKey: Guid(65bbdc6526a45844bb68fc61c23c25f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Effects/Demo/VFX_Explosion.prefab using Guid(65bbdc6526a45844bb68fc61c23c25f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c34d950fb75c616b65768139362362') in 0.014891 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Demo/P_Grid_Wall.prefab
+  artifactKey: Guid(e85142d1c78f896448e46cbaebcccc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Demo/P_Grid_Wall.prefab using Guid(e85142d1c78f896448e46cbaebcccc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0177d52ad19e23224d6df8d8fb7d00f4') in 0.008824 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.001545 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Casings/P_LPSP_Casing_Small.prefab
+  artifactKey: Guid(b1995a53a949fac4db5722fc1df9efe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Casings/P_LPSP_Casing_Small.prefab using Guid(b1995a53a949fac4db5722fc1df9efe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bcff9b62370c0966306acf382c369c') in 0.009962 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Effects/Demo/VFX_Impact_Concrete.prefab
+  artifactKey: Guid(f70beae9db4534140b6d54697cfbfa53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Effects/Demo/VFX_Impact_Concrete.prefab using Guid(f70beae9db4534140b6d54697cfbfa53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a62c02ff14adec99b40ca8e82a67183') in 0.023413 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.001621 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Demo/P_Showcase_Character.prefab
+  artifactKey: Guid(dc9cc0940cac0e64ba20c3a3c73de163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Demo/P_Showcase_Character.prefab using Guid(dc9cc0940cac0e64ba20c3a3c73de163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2750551378fa0dcae3b205631b5694b') in 0.015088 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 308
+========================================================================
+Received Import Request.
+  Time since last request: 0.001721 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Effects/Particles/P_LPSP_WEP_Flash.prefab
+  artifactKey: Guid(2735bebe54c1f5a4096f5134a96f7e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Effects/Particles/P_LPSP_WEP_Flash.prefab using Guid(2735bebe54c1f5a4096f5134a96f7e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1eb3c8fd99a7782f459bf23afae6a1d') in 0.020963 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.002927 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Weapons/P_LPSP_Inventory.prefab
+  artifactKey: Guid(9482e0a2ae6a92742bbe72e00f29f763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack - Free Sample/Prefabs/Weapons/P_LPSP_Inventory.prefab using Guid(9482e0a2ae6a92742bbe72e00f29f763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df351c8037a799e3e4968f57ec8256f8') in 3.120154 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 304
+========================================================================
+Received Import Request.
+  Time since last request: 15.675963 seconds.
+  path: Assets/Scenes/FInal Fps.unity
+  artifactKey: Guid(26731ef0d43f042a1a9f3bec13a4a092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FInal Fps.unity using Guid(26731ef0d43f042a1a9f3bec13a4a092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ea8232cb8c756d7318d915efa16354') in 0.000698 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.803860 seconds.
+  path: Assets/Scenes/Lesson 2-1.unity
+  artifactKey: Guid(68e018779e01143b6b93256b0fd106f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lesson 2-1.unity using Guid(68e018779e01143b6b93256b0fd106f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3ab9f53b4f7c8f5cab0e7acb8b1c80') in 0.000678 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.880619 seconds.
+  path: Assets/Scenes/Lesson 2-2.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lesson 2-2.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98c8528d7466d42ee7746da27e3c8f8') in 0.000522 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.373317 seconds.
+  path: Assets/Scenes/Lesson 2-3.unity
+  artifactKey: Guid(9589451cc138d4e00a2da0a6c2198153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lesson 2-3.unity using Guid(9589451cc138d4e00a2da0a6c2198153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3993de197cd2dd5b1e1675456bfd01') in 0.000557 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.610322 seconds.
+  path: Assets/Scenes/Lesson 2-4.unity
+  artifactKey: Guid(f6a36384918994ec7ad6a9e83ff17795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lesson 2-4.unity using Guid(f6a36384918994ec7ad6a9e83ff17795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f145ec63a71c6179a4661fe3e199de72') in 0.000549 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.625930 seconds.
+  path: Assets/Scenes/Mini-Project 1.unity
+  artifactKey: Guid(d3f1b3746baf04c31b43dabf426ef3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mini-Project 1.unity using Guid(d3f1b3746baf04c31b43dabf426ef3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d68c80d26fd6be45c1e608e5cdae19') in 0.001569 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.626230 seconds.
+  path: Assets/Scenes/Mini-Project-2.unity
+  artifactKey: Guid(43fca621cabb14378ae7c6a1f0ec3937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mini-Project-2.unity using Guid(43fca621cabb14378ae7c6a1f0ec3937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e6a5629db4397e6392781841292c45') in 0.000783 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+Thread 0x2b3e07000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.606 seconds
+Refreshing native plugins compatible for Editor in 3.15 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.648 seconds
+Domain Reload Profiling: 1254ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (411ms)
+		LoadAssemblies (207ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (246ms)
+			TypeCache.Refresh (242ms)
+				TypeCache.ScanAssembly (217ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (648ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (394ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (219ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Failed to load shader (instanceID 8272, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Refreshing native plugins compatible for Editor in 3.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2260 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (1.3 MB). Loaded Objects now: 2817.
+Memory consumption went from 205.8 MB to 204.5 MB.
+Total: 8.686875 ms (FindLiveObjects: 0.142208 ms CreateObjectMapping: 0.050250 ms MarkObjects: 8.259667 ms  DeleteObjects: 0.234375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x298087000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.791 seconds
+Refreshing native plugins compatible for Editor in 7.34 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.791 seconds
+Domain Reload Profiling: 1582ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (523ms)
+		LoadAssemblies (295ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (294ms)
+			TypeCache.Refresh (290ms)
+				TypeCache.ScanAssembly (259ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (791ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (455ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (124ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Failed to load shader (instanceID 8272, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Refreshing native plugins compatible for Editor in 10.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2261 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.3 MB). Loaded Objects now: 2820.
+Memory consumption went from 211.5 MB to 210.2 MB.
+Total: 23.354541 ms (FindLiveObjects: 1.178250 ms CreateObjectMapping: 0.175416 ms MarkObjects: 21.046792 ms  DeleteObjects: 0.952834 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 152.778303 seconds.
+  path: Assets/Scenes/Lesson 2-5
+  artifactKey: Guid(acbd246241a6c4f54bf62960e87adf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lesson 2-5 using Guid(acbd246241a6c4f54bf62960e87adf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8999c2ae5451ce3b8eca38b7df061436') in 0.028160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.676683 seconds.
+  path: Assets/Scenes/LIght Test
+  artifactKey: Guid(5f6991f2369894b6cb989844f4114e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LIght Test using Guid(5f6991f2369894b6cb989844f4114e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527621913303e39bdcb5912f7c37849a') in 0.001662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.032219 seconds.
+  path: Assets/Scenes/LIght Test/NavMesh.asset
+  artifactKey: Guid(2af1a020437f04997940c51b49ebabd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LIght Test/NavMesh.asset using Guid(2af1a020437f04997940c51b49ebabd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a089f9974202dac3dbca7538801d8b33') in 0.022437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.450352 seconds.
+  path: Assets/Scenes/FInal Fps/NavMesh.asset
+  artifactKey: Guid(e92f5dfdec5fa4a42b476a73a84cb8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FInal Fps/NavMesh.asset using Guid(e92f5dfdec5fa4a42b476a73a84cb8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce77c0d99e089783b5bb6800227de20') in 0.001547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.392686 seconds.
+  path: Assets/Scenes/FInal Fps.unity
+  artifactKey: Guid(26731ef0d43f042a1a9f3bec13a4a092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FInal Fps.unity using Guid(26731ef0d43f042a1a9f3bec13a4a092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26fc3d8341ec3cd1f9a6879a1c9fa59') in 0.002079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
